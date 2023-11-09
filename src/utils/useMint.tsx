@@ -84,10 +84,10 @@ const useMintImage = () => {
               gas: "200000000000000",
               deposit: "10000000000000000000000",
             },
-          },git commit -m "first commit"
+          },
         ],
       });
-    } catch (error) {git commit -m "first commit"
+    } catch (error) {
       console.error("Failed to sign and send transaction:", error);
       throw new Error("Failed to sign and send transaction");
     }
